@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DEVMASTER</title>
+    </head>
+    <body>
+        <pre>
+            I, Giới thiệu
+            II, Khởi động với html
+
+                1, Tạo file với html 
+                    tên_file . html : lưu ý tên file không - chứa kí tự đặc biệt 
+                                                           - bắt đầu bằng số
+                                                           - hạn chế chứa dấu cách
+                2, Cấu trúc của 1 trang html 
+                    2 phần: head: chứa các thẻ meta; thẻ link, thẻ scripts (các thẻ nội dung nhúng vào trang web )
+                            body: hiển thị nội dung bằng mắt nhìn của người dùng thông qua các element
+                                  cũng có thể chứa các thẻ link, thẻ script...
+                    *) Các element đa số yêu cầu cặp thẻ đóng mở trừ một số thẻ đặc biệt: img, input, hr, br,...
+                3, Làm quen với các element cụ thể 
+                    - Hiển thị nội dung văn bản: p /text, span,... 
+                    - Hiển thị tiêu đề: h1, h2, h3, h4, h5, h6 
+                    - Hiển thị đường kẻ: hr 
+                    - Thẻ xuống dòng: br
+                    - Thẻ danh sách: ul-li, ol-li, dl-dt-dd... 
+                    - Định dạng văn bản: văn bản in đậm - thẻ b 
+                                         văn bản in nghiêng - thẻ i
+                                         văn bản gạch chân - thẻ u 
+                    - Thẻ hiển thị hình ảnh:
+                        +, Tên element: img (không có thẻ đóng)
+                        +, Một số thuộc tính quan trọng: 
+                                - src: địa chỉ hình ảnh cần được hiển thị
+                                - alt: hiển thị tên ảnh trong trường hợp không biểu diễn được ảnh
+                    - Thẻ dẫn đường liên kết: 
+                        +, tên element: a 
+                        +, một số thuộc tính cần lưu ý:
+                                    - href: giá trị <=> url cần điều hướng 
+                                    - title: hiển thị ghi chú cho thẻ a
+                                    - target: tạo tab mới hay giữ nguyên
+                    .................................
+                    4, Kết hợp các element để giải quyết bài toán
+                        Kết hợp các element: danh sách, liên kết, nội dung/hình ảnh
+        </pre>
+        <hr>
+
+        <h2>BT1: Luyện tập sử dụng các element đầu tiên (văn bản)</h2>
+            <p>
+                <b> Lorem </b> <i> ipsum dolor sit amet consectetur </i> adipisicing elit. <tt> Minima natus earum voluptas, </tt> alias nobis consectetur iste quod quidem consequatur assumenda. <br> Dignissimos dolore quidem rem eligendi sequi quibusdam adipisci perspiciatis expedita!
+            </p>
+            <hr>
+            <h2> LOREM </h2>
+            <p>
+                <b> <big>Lorem</big>  </b> ipsum dolor sit amet consectetur adipisicing elit. Modi nobis eos totam ipsam sint officia et doloribus, <small> animi aliquam porro? </small> <br> Possimus explicabo voluptas ipsum beatae eveniet aliquam eaque labore nemo!
+            </p>
+            <hr>
+
+            <h2>BT2: Luyện tập sử dụng thẻ danh sách (ul-li/ol-li)</h2>
+            <ul type="square">
+                <li>Lập trình Web với PHP</li>
+                <li>Học HTML</li>
+                <li>Học CSS</li>
+                <li>Học Javascript</li>
+                <li>Thư viện Jqquery</li>
+                <li>Thư viện Responsive</li>
+            </ul>
+            <ol type="I">
+                <li>Lập trình Web với PHP</li>
+                <li>Học HTML</li>
+                <li>Học CSS</li>
+                <li>Học Javascript</li>
+                <li>Thư viện Jqquery</li>
+                <li>Thư viện Responsive</li>
+            </ol>
+
+            <h4>Thử sức với dl-dt-dd</h4>
+            <dl>
+                <dt>Mục I</dt>
+                    <dd>Mục 1.1</dd>
+                    <dd>Mục 1.2</dd>
+                <dt>Mục II</dt>
+                    <dd>Mục 2.1</dd>
+                    <dd>Mục 2.2</dd>
+            </dl>
+            <hr>
+
+        <h4>Thẻ img</h4>
+        <img src="../images/banner.png" alt="dev">
+
+        <img src="https://devmaster.edu.vn/Lap-trinh-website-voi-asp-net-mvc-netmvc.html" alt="">
+
+        <h4> Thẻ a: </h4>
+        <a href="https://devmaster.edu.vn/" title="devmaster" target="_blank"> click để đi tới trang chủ devmaster</a>
+        <hr>
+
+        <h4>BT3</h4>
+        <b>Làm thế nào để có nó ?</b>
+        <hr>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At repudiandae ex, voluptates atque recusandae ea veritatis placeat odio quae adipisci soluta rerum? Officia, a asperiores quisquam neque error maiores! Molestiae!
+        </p>
+        <img src="../images/Dev.jpg" alt="dev">
+        <hr>
+        <ul>
+        <li> 
+            <a href="https://devmaster.edu.vn/ "title="Trang chủ" target="_blank">
+                <img src="../images/Dev.jpg" alt="dev">
+                Trang chủ
+            </a>
+        </li>
+        <li>
+            <a href="https://devmaster.edu.vn/#footer" title="Liên hệ" target="_blank">Liên hệ</a>
+        </li>
+        <li>
+            <a href="https://devmaster.edu.vn/#schedule" title="Lịch khai giảng" target="_blank">Lịch khai giảng</a>
+        </li>
+        <li>
+            <a href="https://devmaster.edu.vn/#" title="Tiện ích" target="_blank">Tiện ích </a>
+        </li>
+        </ul>
+
+
+    </body>
+</html>
