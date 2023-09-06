@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.main-menu{
+    display: flex;
+    background-color:darkgrey ;
+    border-radius: 3px;
+    width: 100%;
+}
+.main-menu .option-menu{
+    padding: 8px 20px;
+    border-right: 1px solid;
+}
+
+.main-menu .option-menu:last-child{
+    border-right: 0;
+}
+.main-menu .option-menu:hover a{
+   color: red;
+}

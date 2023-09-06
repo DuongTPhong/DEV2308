@@ -1,0 +1,24 @@
+/* Css cho các element */
+footer {
+    height: 200px;
+    width: 800px;
+    background-color: rgb(127, 255, 144);
+}
+/* Css cho class */
+.header{
+    background-color: blueviolet;
+}
+/* CSS cho id */
+#header{
+    background-color: brown;
+}
+/* Css cho các thuộc tính */
+[data-attr="hearder"]{
+    background-color: beige;
+}
+#header{
+    background-color: chocolate;
+}
+ section{
+    color: rgb(255, 34, 0) !important;
+}
