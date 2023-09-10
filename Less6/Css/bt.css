@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.menu-1{
+    background-color: coral;
+    width: 100%;
+    display: flex;
+    
+}
+.option{
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.option:hover{
+    background-color:gold;
+}
+.menu-2{
+    position: absolute;
+    background-color: deepskyblue;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 150px;
+}
+.option:hover .menu-2{
+    display: block;
+}
+.menu-3{
+    position: absolute;
+    background-color: rgba(255, 20, 145, 0.26);
+    top: 0;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+.option:hover > .menu-3{
+    display: block;
+}
+
+.banner img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.list-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-img{
+    margin-bottom: 20px;
+}
+.card-title{
+    margin-bottom: 20px;
+}
+.card-price{
+    margin-bottom: 50px;
+}
