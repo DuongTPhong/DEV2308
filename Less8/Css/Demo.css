@@ -1,0 +1,112 @@
+.page-blog{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 33%;
+}
+.dp-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card .card-img{
+    overflow: hidden;
+    position: relative;
+    height: 60%;
+    margin-top: -30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 6px;
+}
+.card .card-content{
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.card-title{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.card-description{
+    margin-top: 20px;
+    color: #999999;
+}
+.page-content .page-blog:hover{
+        box-shadow: 10px 10px 5px 0px rgba(109,70,74,0.6);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(109,70,74,0.6);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(109,70,74,0.6);
+}
+@keyframes zoom{
+    from {scale: 1;}
+    to {scale: 1.5;}
+}
+.page-content .card-blog .card-img img:hover{
+    animation-name: zoom;
+    animation-duration: 1s;
+    scale: 1.5;
+}
+@media only screen and (max-width:500px) {
+    .page-content .page-blog.w-25{
+        width: 50%;
+
+    }
+}
+.tin{
+    margin-top: 80px;
+}
+.font1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.text{
+    text-align: center;
+    font-size: 30px
+}
+span{
+    color: red;
+}
+
+/* header */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.menu-1{
+    background-color: #c73635;
+    width: 100%;
+    display: flex;
+    
+}
+.option{
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.option:hover{
+    background-color:gold;
+}
+.menu-2{
+    position: absolute;
+    background-color: deepskyblue;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 200px;
+}
+.option:hover .menu-2{
+    display: block;
+}
+.menu-3{
+    position: absolute;
+    background-color: azure;
+    top: 0;
+    left: 100%;
+    display: none;
+    width: 200px;
+}
+.option:hover > .menu-3{
+    display: block;
+}

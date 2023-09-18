@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .khung{
+            width: 1000px;
+            height: 600px;
+            border: 5px solid #000;
+           position: relative;
+        }
+        .item{
+            width: 100px;
+            height: 60px;
+            background-color: green;
+            position: absolute;
+     
+        }
+        @keyframes identifier {
+            0%   { left:0px; top:0px;}
+            25%  { left:900px; top:0px;}
+            50%  { left:900px; top:540px;}
+            75%  { left:0px; top:540px;}
+            100% { left:0px; top:0px;}
+        }
+        .khung:hover .item{
+            animation: identifier;
+            animation-duration: 8s;
+            animation-delay: 1s;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="khung">
+            <div class="item">
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
