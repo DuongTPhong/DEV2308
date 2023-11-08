@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #000088;
+}
+html{
+    font-family: Helvetica;
+    font-size: 20px;
+    
+}
+.w-100{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.alg-center{
+    text-align: center;
+}
+.top-100{
+    margin-top: 100px;
+}
+
+
+/* header */
+
+.menu{
+    display: flex;
+}
+.main-menu{
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    margin-right: 250px;
+    margin-top: 65px;
+    
+}
+.option{
+    color: #000088;
+    text-decoration: none;
+}
+
+
+.main-menu .option-menu{
+    padding: 8px 20px;
+}
+.main-menu .option-menu:hover a{
+   color: #261a4e;
+}
+
+.img-logo {
+    margin-left: 200px;
+    margin-top: 65px;
+    padding-right: 150px;
+}
+.menu-title{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 600px;
+}
+.title-m{
+    color: white;
+    font-size: 32px;
+    margin: 0px 0px 16px;
+}
+.text-m{
+    color: white;
+    width: 500px;
+    font-size: 17px;
+    
+}
+.btn-banner{
+    margin-top: 35px;
+    margin-bottom: 200px;
+    padding: 8px 10px;
+    color: rgb(0, 13, 255);
+    background-color: white;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+
+/* footer */
+footer .logo {
+    margin-right: 0.2rem;
+    width: 3.52rem;
+    height: 2rem;
+}
+
+footer .menu-ft {
+    margin-top: 0.25rem;
+}
+
+.choose-option .option-ft:hover {
+    border-bottom: 0.2rem solid #261a4e;
+    text-decoration: none;
+}
+
+footer .mxh {
+    background-color: #261a4e;
+    width: 2.15rem;
+    height: 2.1rem;
+    margin-left: 0.72rem;
+    border-radius: 50%;
+    transform: translateY(-2px);
+}
+
+footer .right-footer .mxh:last-child {
+    margin-left: 0.3rem;
+}
+
+footer .mxh i {
+    background: #333366;
+    color: #fff;
+    padding: .6rem;
+    border-radius: 50%;
+}
+
+footer .ft-contact {
+    font-size: 1.2rem;
+    color: #26194e;
+    margin-left: 6.5rem;
+    text-decoration: none;
+}
+
+footer .menu-ft .option {
+    margin: 0 0.72rem;
+    text-decoration: none;
+}
+
+.ft{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 200px;
+}
+.op-ft{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-style: bold;
+    padding: 5px 15px;
+}

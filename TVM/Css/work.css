@@ -1,0 +1,173 @@
+.vn{
+    text-decoration: revert;
+    color: #c5ad3d;   
+}
+.container {
+    overflow: auto;
+  }
+
+.text {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    padding-top: 80px;
+}
+.text h2{
+    color: #261a4e;
+    font-weight: bold;
+}
+.text p{
+    color: #261a4e;
+}
+.image {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #261a4e;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.recent{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.recent h4 {
+    font-weight: bold;
+}
+
+
+
+
+.list-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    color: #8e83ba;
+}
+
+.card-content p {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-content .read-more {
+    display: block;
+    margin-top: 10px;
+    color: #00a2ff;
+    font-weight: bold;
+}
+
+.recent-bt {
+    padding: 10px 20px;
+    background-color: #261a4e;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+.container-pp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+}
+.card-pp {
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.card-content-pp {
+    margin-top: 10px;
+    text-align: center;
+}
+.card-content-pp p {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+/* form */
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-section,
+.right-section {
+  width: 50%;
+  padding: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #DCDCDC;
+  border: none;
+  outline: none;
+  font-style: italic;
+  padding-left: 2rem;
+}
+.tell{
+    width: 100%;
+    padding: 5px;
+    background-color: #DCDCDC;
+    height: 150px;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+.bottom-section{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+}
+.cb{
+    padding: 10px;
+    
+}
+
+.bt-get {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #261a4e;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+

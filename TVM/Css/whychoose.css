@@ -1,0 +1,150 @@
+.vn{
+    text-decoration: revert;
+    color: #c5ad3d;   
+}
+.page-banner{
+    margin-top: 1rem;
+}
+.title-bn{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    width: 600px;
+}
+
+.title-banner{ 
+    color: white;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+.sub-banner{
+    color: white;
+   font-size: 20px;
+    width: 560px;
+    text-align: justify;
+}
+
+.title-page{
+    margin-top: 3rem;
+    text-align: center;
+}
+.title-page h2 {
+    font-size: 45px;
+}
+.sub-page{
+    width: 900px;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-bottom: 2.5rem;
+    text-align: justify;
+}
+
+.dlt-table{
+    margin-top: 50px;
+}
+
+.dlt-table img{
+    width: 100%;
+}
+
+.list-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+}
+
+.card-content p {
+    margin-top: 5px;
+    font-size: 18px;
+    
+}
+.wh{
+    width: 100px;
+    height: 100px;
+} 
+
+
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.background-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-text h4 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: -5px;
+}
+
+.overlay-text p {
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+.card-os {
+    display: flex;
+    margin-top: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 400px; 
+}
+
+.card-image-os {
+    flex: -0,5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content-os {
+    flex: 1;
+    padding: 20px; 
+}
+
+.card-content-os p{
+    padding-top: 0.5rem;
+}

@@ -1,0 +1,70 @@
+
+.vn{
+    text-decoration: revert;
+    color: #c5ad3d;   
+}
+.cl-w{
+    color: white;
+}
+.title-banner{ 
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size: 20px;
+}
+.sub-banner{
+    width: 800px;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+   font-size: 18px;
+    text-align: center;
+}
+
+.title{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center; 
+}
+.text-content{
+    width: 450px;
+    margin-left: 255px;
+}
+.form-content{
+    width: 450px;
+}
+.form-control{
+    margin-bottom: 15px;
+    background-color: #DCDCDC;
+}
+.btn{
+    width: 450px;
+    height: 50px;
+    background-color: #281e52;
+}
+.Subscribe{
+    margin-top: 100px;
+}
+.title-sub{ 
+    position: absolute;
+    top: 202%;
+    left: 35%;
+   
+   
+}
+.sub-sub{
+    width: 700px;
+    position: absolute;
+    top: 210%;
+    left: 25%;
+   font-size: 18px;
+    text-align: center;
+}
+.btn-sub{
+   padding: 6px 10px;
+    position: absolute;
+    top: 225%;
+    left: 43%;
+   
+    text-align: center;
+}

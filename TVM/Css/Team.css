@@ -1,0 +1,170 @@
+.bg{
+    background-image: url(../images/team/Team-1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+.option{
+    color: white;
+    text-decoration: none;
+}
+.vn{
+    text-decoration: revert;
+    color: #003399;   
+}
+.text-m{
+    width: 450px;
+    font-size: 22px;
+    height: 370px;
+}
+/* Reason */
+.list-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+}
+
+.card-content p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.wh{
+    width: 100px;
+    height: 100px;
+} 
+
+/* Slick Team */
+.slide-team {
+    padding: 1.6rem 2.6rem 0;
+    width: 570px;
+}
+
+.slide-team-item {
+    padding: 0.5rem;
+}
+.slide-team-item img{
+    border-radius: 0.6rem;
+}
+/* Leader */
+.ld{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.leader {
+    padding-top: 3.8rem;
+}
+
+.leader-title {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.leader-content {
+    padding-top: 1.8rem;
+}
+
+.list-ld {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.leader-item {
+    border: 1px solid #ccc;
+   padding: 1rem 0;
+   margin-bottom: 30px;
+}
+
+.leader-content .cusPad {
+    padding-bottom: 1.2rem;
+}
+
+.leader-content .leader-item .img img {
+    width: 80% !important;
+}
+
+.leader-content .leader-item .info {
+    padding-top: 1.2rem;
+    line-height: 1rem;
+}
+
+
+.leader-content .leader-item .social i {
+    background: #333366;
+    color: #fff;
+    padding: .6rem;
+    border-radius: 50%;
+}
+
+/* Our Partners */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+}
+.image-container h2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 65%;
+}
+.image-container h4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    font-size: 23px;
+}
+
+.img-hv img {
+    transform: scale(1);
+    transition: transform 1s; 
+}
+
+ .img-hv img:hover {
+    transform: scale(1.2);
+    animation: none;
+}
+
+ .img-hv {
+    overflow: hidden;
+}
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}

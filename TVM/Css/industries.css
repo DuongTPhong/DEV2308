@@ -1,0 +1,75 @@
+.container {
+    overflow: auto;
+  }
+
+.textL {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.textR {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    padding-left: 100px;
+    
+}
+
+.text h2,
+.text h4,
+.text p {
+    color: #000088;
+}
+
+.imageR {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    padding-left: 100px;
+}
+.imageL {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000088;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+
+.alg-right{
+    text-align: right;
+}
+
+.img-hv img {
+    transform: scale(1);
+    transition: transform 1s; 
+}
+
+ .img-hv img:hover {
+    transform: scale(1.2);
+    animation: none;
+}
+
+ .img-hv {
+    overflow: hidden;
+}
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+

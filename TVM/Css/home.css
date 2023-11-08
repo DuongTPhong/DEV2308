@@ -1,0 +1,274 @@
+.page-1{
+    background-color: #f3f3f3;
+}
+.bg{
+    background-image: url(../images/home/banner-homepage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+.option{
+    color: white;
+    text-decoration: none;
+}
+.vn{
+    text-decoration: revert;
+    color: #003399;   
+}
+.page-content{
+    padding-top: 100px;
+}
+.welcome-img{
+    margin: 70px 45px;
+}
+.card-wc{
+    padding: 0px 15px;
+}
+
+/* Cooperation */
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.span-cope {
+    color: #fff;
+    background: #003399;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 26%;
+    height: 2.3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.cope{
+    margin: 70px 180px 80px 180px;
+}
+.text-cope{
+    width: 690px;
+    padding: 0px 50px;
+}
+.img-cope{
+    
+    padding-bottom: 3.5rem;
+}
+
+.title-page{
+    font-weight: bold;
+}
+
+/* Work */
+.list-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+}
+
+.card-content p {
+    margin-top: 5px;
+    font-size: 18px;
+    
+}
+
+ .wh{
+    width: 100px;
+    height: 100px;
+} 
+
+
+/* Research */
+.sub-research{
+    width: 930px;
+    margin-top: 1rem;
+    margin-left: 8.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.icon-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #013c8c;
+    color: white;
+    align-items: center;
+}
+.icon{
+    padding-left: 12px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cardd {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.card-1 {
+    z-index: 1; 
+    right: 18%;
+    top: -20%;
+}
+
+.card-2 {
+    z-index: 2; 
+    position: absolute;
+    right: 18%;
+    bottom: -390%;
+    background-color: #013c8c;
+}
+.card-2 p{
+    padding: 20px;
+    width: 360px; 
+    color: white;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 415%;
+    right: 12%;
+    max-width: 25%; 
+    z-index: 3; 
+}
+
+
+/* Our partner */
+.op{
+    margin-top: -8rem;
+    margin-bottom: 2rem;
+}
+.list-card-op{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+.card-op {
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card-content-op {
+    padding: 20px;
+}
+.bg1{
+    background: linear-gradient(#828bff, #4537fd, #2104fd);
+}
+.bg2{
+    background: linear-gradient(#9612fb, #b80995, #d20145);
+}
+.bg3{
+    background: linear-gradient(#f9ea46, #89cd5f, #1fb077);
+}
+.card-content-op h2 {
+    color: white;
+    text-align: left;
+    padding: 0 20px;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.card-content-op p {
+    color: white;
+    
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.logo-op {
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px 10px;
+    display: block;
+    margin-bottom: 123px;
+}
+.mgb{
+    margin-bottom: 185px;
+}
+
+.button {
+    background-color: #2104fd;
+    color: white;
+    border: 2px solid white; 
+    padding: 10px 50px;
+    cursor: pointer;
+    margin: 5px 40px 5px;
+}
+
+.bt-op{
+    margin-top: 1.5rem;
+    padding: 10px 25px;
+    background-color: #013c8c;
+    color: white;
+    font-weight: bold;
+}
+
+.sub-join{
+    width: 770px;
+    margin-top: 1rem;
+    margin-left: 18rem;
+    margin-bottom: -0.5rem;
+}
+
+
+.img-hv img {
+    transform: scale(1);
+    transition: transform 1s; 
+}
+
+ .img-hv img:hover {
+    transform: scale(1.2);
+    animation: none;
+}
+
+ .img-hv {
+    overflow: hidden;
+}
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+
+
